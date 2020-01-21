@@ -1,0 +1,6 @@
+Steps to write a web service in SOAP
+
+Step 1 : Create a Global Class 
+Step 2 : Create one inner apex class 
+Step 3 : Create a web service method 
+Step 4 : Generate WSDL
