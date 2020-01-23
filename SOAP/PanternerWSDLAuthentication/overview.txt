@@ -1,0 +1,24 @@
+WSDL:
+
+- WSDL (Web Services Description Language) is an XML document that describes a web service.
+- It is used in combination with SOAP and XML Schema to provide web services over the Internet.
+- A client program connecting to a web service can read the WSDL to determine what functions are available on the server.
+
+Enterprise WSDL:
+
+- The Enterprise WSDL is strongly typed, 
+    which means that it contains objects and fields with specific data types, such as int and string.
+- The Enterprise WSDL document is for customers 
+    who want to build an integration with their Salesforce organization only.
+- Customers who use the enterprise WSDL document 
+    must download and re-consume it whenever their organization makes a change to its custom objects or fields or whenever they want to use a different version of the API.
+
+Partner WSDL:
+
+- The Partner WSDL is loosely typed, 
+    which means that you work with name-value pairs of field names and values instead of specific data types.
+- This WSDL document is for customers, partners,and ISVs 
+    who want to build an integration that can work across multiple Salesforce organizations, regardless of their custom objects or fields.
+- The Partner WSDL is static, 
+and hence does not change if modifications are made to an organization’s Salesforce configuration.
+
