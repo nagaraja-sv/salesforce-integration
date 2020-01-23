@@ -1,0 +1,13 @@
+Steps to write a web service in SOAP
+
+Step 1 : Create a Global Class 
+Step 2 : Create one inner apex class 
+Step 3 : Create a web service method 
+Step 4 : Generate WSDL
+
+How to Consume WSDL File 
+
+Step 1 : Add Remote Site Settings 
+Step 2 : Authentication (Patner WSDL Parsing Error 'anytype' and convert it string  )
+Step 3 : Get My SessionId to set the Session Header element in my request.
+Step 4 : 
