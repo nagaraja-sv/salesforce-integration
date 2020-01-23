@@ -2,7 +2,7 @@
 partnerSoapSforceCom.LoginResult sessioninfo = new partnerSoapSforceCom.LoginResult();
 
 partnerSoapSforceCom.soap soapObj = new partnerSoapSforceCom.soap();
-sessioninfo = soapObj.login('nagaraja@suragani.com','Spiderman@57F5FzmyydPeaL8TO3p5djJfCC');
+sessioninfo = soapObj.login('**********','*******SercurityTocken');
 
 system.debug('SessionId'+sessioninfo.sessionId);
 soapSforceAccountService.SessionHeader_element  sessionElementObj = new soapSforceAccountService.SessionHeader_element();
